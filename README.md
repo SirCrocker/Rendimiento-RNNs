@@ -28,7 +28,7 @@ El subconjunto del dataset está dado por test_list.txt, val_list.txt y train_li
 
 #### Ejecución
 
-Al trabajar con jupyter notebooks, se deben ir ejecutando los bloques siguiendo el orden, los bloques que deben ejecutarse para que el resto de código pueda correr son los que se encuentran en las secciones: "Importar librerías y archivos", "Carga de los datasets", "Gráficos" y "Funciones de entrenamiento". El resto de bloques debe ejecutarlos según los experimentos que desee probar. Los experimentos son independientes entre sí por lo que puede correrlos en el orden que desee. 
+Al trabajar con jupyter notebooks, se deben ir ejecutando los bloques siguiendo el orden de aparición, los bloques que deben ejecutarse para que el resto de código pueda correr son los que se encuentran en las secciones: "Importar librerías y archivos", "Carga de los datasets", "Gráficos" y "Funciones de entrenamiento". El resto de bloques debe ejecutarlos según los experimentos que desee probar. Los experimentos son independientes entre sí, por lo que puede correrlos en el orden que desee. 
 
 ## Historial de versiones
 
