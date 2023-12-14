@@ -1,0 +1,848 @@
+,Actual,Predicted,nPredictions,name
+0,yes,yes,383,LSTM_LN_Model
+1,yes,no,0,LSTM_LN_Model
+2,yes,up,0,LSTM_LN_Model
+3,yes,down,6,LSTM_LN_Model
+4,yes,left,1,LSTM_LN_Model
+5,yes,right,1,LSTM_LN_Model
+6,yes,on,1,LSTM_LN_Model
+7,yes,off,0,LSTM_LN_Model
+8,yes,stop,0,LSTM_LN_Model
+9,yes,go,0,LSTM_LN_Model
+10,yes,unknown word,4,LSTM_LN_Model
+11,no,yes,7,LSTM_LN_Model
+12,no,no,282,LSTM_LN_Model
+13,no,up,2,LSTM_LN_Model
+14,no,down,21,LSTM_LN_Model
+15,no,left,13,LSTM_LN_Model
+16,no,right,0,LSTM_LN_Model
+17,no,on,0,LSTM_LN_Model
+18,no,off,1,LSTM_LN_Model
+19,no,stop,0,LSTM_LN_Model
+20,no,go,60,LSTM_LN_Model
+21,no,unknown word,10,LSTM_LN_Model
+22,up,yes,0,LSTM_LN_Model
+23,up,no,0,LSTM_LN_Model
+24,up,up,335,LSTM_LN_Model
+25,up,down,11,LSTM_LN_Model
+26,up,left,0,LSTM_LN_Model
+27,up,right,0,LSTM_LN_Model
+28,up,on,1,LSTM_LN_Model
+29,up,off,8,LSTM_LN_Model
+30,up,stop,8,LSTM_LN_Model
+31,up,go,17,LSTM_LN_Model
+32,up,unknown word,16,LSTM_LN_Model
+33,down,yes,3,LSTM_LN_Model
+34,down,no,24,LSTM_LN_Model
+35,down,up,1,LSTM_LN_Model
+36,down,down,324,LSTM_LN_Model
+37,down,left,5,LSTM_LN_Model
+38,down,right,0,LSTM_LN_Model
+39,down,on,1,LSTM_LN_Model
+40,down,off,0,LSTM_LN_Model
+41,down,stop,2,LSTM_LN_Model
+42,down,go,21,LSTM_LN_Model
+43,down,unknown word,15,LSTM_LN_Model
+44,left,yes,20,LSTM_LN_Model
+45,left,no,1,LSTM_LN_Model
+46,left,up,5,LSTM_LN_Model
+47,left,down,3,LSTM_LN_Model
+48,left,left,344,LSTM_LN_Model
+49,left,right,3,LSTM_LN_Model
+50,left,on,0,LSTM_LN_Model
+51,left,off,0,LSTM_LN_Model
+52,left,stop,5,LSTM_LN_Model
+53,left,go,1,LSTM_LN_Model
+54,left,unknown word,14,LSTM_LN_Model
+55,right,yes,1,LSTM_LN_Model
+56,right,no,0,LSTM_LN_Model
+57,right,up,3,LSTM_LN_Model
+58,right,down,1,LSTM_LN_Model
+59,right,left,14,LSTM_LN_Model
+60,right,right,341,LSTM_LN_Model
+61,right,on,2,LSTM_LN_Model
+62,right,off,3,LSTM_LN_Model
+63,right,stop,1,LSTM_LN_Model
+64,right,go,3,LSTM_LN_Model
+65,right,unknown word,27,LSTM_LN_Model
+66,on,yes,0,LSTM_LN_Model
+67,on,no,1,LSTM_LN_Model
+68,on,up,45,LSTM_LN_Model
+69,on,down,4,LSTM_LN_Model
+70,on,left,1,LSTM_LN_Model
+71,on,right,2,LSTM_LN_Model
+72,on,on,282,LSTM_LN_Model
+73,on,off,19,LSTM_LN_Model
+74,on,stop,4,LSTM_LN_Model
+75,on,go,15,LSTM_LN_Model
+76,on,unknown word,23,LSTM_LN_Model
+77,off,yes,2,LSTM_LN_Model
+78,off,no,3,LSTM_LN_Model
+79,off,up,67,LSTM_LN_Model
+80,off,down,3,LSTM_LN_Model
+81,off,left,5,LSTM_LN_Model
+82,off,right,0,LSTM_LN_Model
+83,off,on,1,LSTM_LN_Model
+84,off,off,275,LSTM_LN_Model
+85,off,stop,4,LSTM_LN_Model
+86,off,go,10,LSTM_LN_Model
+87,off,unknown word,26,LSTM_LN_Model
+88,stop,yes,0,LSTM_LN_Model
+89,stop,no,0,LSTM_LN_Model
+90,stop,up,2,LSTM_LN_Model
+91,stop,down,2,LSTM_LN_Model
+92,stop,left,0,LSTM_LN_Model
+93,stop,right,0,LSTM_LN_Model
+94,stop,on,0,LSTM_LN_Model
+95,stop,off,0,LSTM_LN_Model
+96,stop,stop,372,LSTM_LN_Model
+97,stop,go,4,LSTM_LN_Model
+98,stop,unknown word,16,LSTM_LN_Model
+99,go,yes,2,LSTM_LN_Model
+100,go,no,13,LSTM_LN_Model
+101,go,up,4,LSTM_LN_Model
+102,go,down,41,LSTM_LN_Model
+103,go,left,3,LSTM_LN_Model
+104,go,right,0,LSTM_LN_Model
+105,go,on,2,LSTM_LN_Model
+106,go,off,1,LSTM_LN_Model
+107,go,stop,1,LSTM_LN_Model
+108,go,go,307,LSTM_LN_Model
+109,go,unknown word,22,LSTM_LN_Model
+110,unknown word,yes,4,LSTM_LN_Model
+111,unknown word,no,13,LSTM_LN_Model
+112,unknown word,up,15,LSTM_LN_Model
+113,unknown word,down,34,LSTM_LN_Model
+114,unknown word,left,15,LSTM_LN_Model
+115,unknown word,right,13,LSTM_LN_Model
+116,unknown word,on,15,LSTM_LN_Model
+117,unknown word,off,5,LSTM_LN_Model
+118,unknown word,stop,8,LSTM_LN_Model
+119,unknown word,go,29,LSTM_LN_Model
+120,unknown word,unknown word,270,LSTM_LN_Model
+121,yes,yes,386,GRU_CNN_ATT
+122,yes,no,0,GRU_CNN_ATT
+123,yes,up,1,GRU_CNN_ATT
+124,yes,down,0,GRU_CNN_ATT
+125,yes,left,5,GRU_CNN_ATT
+126,yes,right,0,GRU_CNN_ATT
+127,yes,on,0,GRU_CNN_ATT
+128,yes,off,0,GRU_CNN_ATT
+129,yes,stop,0,GRU_CNN_ATT
+130,yes,go,0,GRU_CNN_ATT
+131,yes,unknown word,4,GRU_CNN_ATT
+132,no,yes,7,GRU_CNN_ATT
+133,no,no,341,GRU_CNN_ATT
+134,no,up,0,GRU_CNN_ATT
+135,no,down,13,GRU_CNN_ATT
+136,no,left,2,GRU_CNN_ATT
+137,no,right,0,GRU_CNN_ATT
+138,no,on,0,GRU_CNN_ATT
+139,no,off,1,GRU_CNN_ATT
+140,no,stop,1,GRU_CNN_ATT
+141,no,go,25,GRU_CNN_ATT
+142,no,unknown word,6,GRU_CNN_ATT
+143,up,yes,0,GRU_CNN_ATT
+144,up,no,0,GRU_CNN_ATT
+145,up,up,372,GRU_CNN_ATT
+146,up,down,1,GRU_CNN_ATT
+147,up,left,2,GRU_CNN_ATT
+148,up,right,0,GRU_CNN_ATT
+149,up,on,2,GRU_CNN_ATT
+150,up,off,4,GRU_CNN_ATT
+151,up,stop,7,GRU_CNN_ATT
+152,up,go,5,GRU_CNN_ATT
+153,up,unknown word,3,GRU_CNN_ATT
+154,down,yes,3,GRU_CNN_ATT
+155,down,no,28,GRU_CNN_ATT
+156,down,up,1,GRU_CNN_ATT
+157,down,down,331,GRU_CNN_ATT
+158,down,left,1,GRU_CNN_ATT
+159,down,right,0,GRU_CNN_ATT
+160,down,on,0,GRU_CNN_ATT
+161,down,off,1,GRU_CNN_ATT
+162,down,stop,4,GRU_CNN_ATT
+163,down,go,22,GRU_CNN_ATT
+164,down,unknown word,5,GRU_CNN_ATT
+165,left,yes,24,GRU_CNN_ATT
+166,left,no,1,GRU_CNN_ATT
+167,left,up,2,GRU_CNN_ATT
+168,left,down,0,GRU_CNN_ATT
+169,left,left,358,GRU_CNN_ATT
+170,left,right,3,GRU_CNN_ATT
+171,left,on,0,GRU_CNN_ATT
+172,left,off,1,GRU_CNN_ATT
+173,left,stop,1,GRU_CNN_ATT
+174,left,go,1,GRU_CNN_ATT
+175,left,unknown word,5,GRU_CNN_ATT
+176,right,yes,0,GRU_CNN_ATT
+177,right,no,1,GRU_CNN_ATT
+178,right,up,1,GRU_CNN_ATT
+179,right,down,0,GRU_CNN_ATT
+180,right,left,6,GRU_CNN_ATT
+181,right,right,365,GRU_CNN_ATT
+182,right,on,2,GRU_CNN_ATT
+183,right,off,4,GRU_CNN_ATT
+184,right,stop,1,GRU_CNN_ATT
+185,right,go,2,GRU_CNN_ATT
+186,right,unknown word,14,GRU_CNN_ATT
+187,on,yes,1,GRU_CNN_ATT
+188,on,no,0,GRU_CNN_ATT
+189,on,up,18,GRU_CNN_ATT
+190,on,down,3,GRU_CNN_ATT
+191,on,left,0,GRU_CNN_ATT
+192,on,right,1,GRU_CNN_ATT
+193,on,on,353,GRU_CNN_ATT
+194,on,off,16,GRU_CNN_ATT
+195,on,stop,0,GRU_CNN_ATT
+196,on,go,1,GRU_CNN_ATT
+197,on,unknown word,3,GRU_CNN_ATT
+198,off,yes,0,GRU_CNN_ATT
+199,off,no,0,GRU_CNN_ATT
+200,off,up,35,GRU_CNN_ATT
+201,off,down,0,GRU_CNN_ATT
+202,off,left,1,GRU_CNN_ATT
+203,off,right,0,GRU_CNN_ATT
+204,off,on,2,GRU_CNN_ATT
+205,off,off,350,GRU_CNN_ATT
+206,off,stop,4,GRU_CNN_ATT
+207,off,go,4,GRU_CNN_ATT
+208,off,unknown word,0,GRU_CNN_ATT
+209,stop,yes,0,GRU_CNN_ATT
+210,stop,no,0,GRU_CNN_ATT
+211,stop,up,2,GRU_CNN_ATT
+212,stop,down,1,GRU_CNN_ATT
+213,stop,left,0,GRU_CNN_ATT
+214,stop,right,0,GRU_CNN_ATT
+215,stop,on,1,GRU_CNN_ATT
+216,stop,off,0,GRU_CNN_ATT
+217,stop,stop,387,GRU_CNN_ATT
+218,stop,go,5,GRU_CNN_ATT
+219,stop,unknown word,0,GRU_CNN_ATT
+220,go,yes,0,GRU_CNN_ATT
+221,go,no,19,GRU_CNN_ATT
+222,go,up,6,GRU_CNN_ATT
+223,go,down,3,GRU_CNN_ATT
+224,go,left,0,GRU_CNN_ATT
+225,go,right,0,GRU_CNN_ATT
+226,go,on,0,GRU_CNN_ATT
+227,go,off,2,GRU_CNN_ATT
+228,go,stop,1,GRU_CNN_ATT
+229,go,go,360,GRU_CNN_ATT
+230,go,unknown word,5,GRU_CNN_ATT
+231,unknown word,yes,4,GRU_CNN_ATT
+232,unknown word,no,8,GRU_CNN_ATT
+233,unknown word,up,13,GRU_CNN_ATT
+234,unknown word,down,2,GRU_CNN_ATT
+235,unknown word,left,3,GRU_CNN_ATT
+236,unknown word,right,11,GRU_CNN_ATT
+237,unknown word,on,9,GRU_CNN_ATT
+238,unknown word,off,6,GRU_CNN_ATT
+239,unknown word,stop,12,GRU_CNN_ATT
+240,unknown word,go,18,GRU_CNN_ATT
+241,unknown word,unknown word,335,GRU_CNN_ATT
+242,yes,yes,370,GRU_ATT
+243,yes,no,1,GRU_ATT
+244,yes,up,1,GRU_ATT
+245,yes,down,0,GRU_ATT
+246,yes,left,17,GRU_ATT
+247,yes,right,1,GRU_ATT
+248,yes,on,0,GRU_ATT
+249,yes,off,0,GRU_ATT
+250,yes,stop,0,GRU_ATT
+251,yes,go,0,GRU_ATT
+252,yes,unknown word,6,GRU_ATT
+253,no,yes,0,GRU_ATT
+254,no,no,377,GRU_ATT
+255,no,up,1,GRU_ATT
+256,no,down,3,GRU_ATT
+257,no,left,1,GRU_ATT
+258,no,right,0,GRU_ATT
+259,no,on,0,GRU_ATT
+260,no,off,0,GRU_ATT
+261,no,stop,0,GRU_ATT
+262,no,go,10,GRU_ATT
+263,no,unknown word,4,GRU_ATT
+264,up,yes,0,GRU_ATT
+265,up,no,0,GRU_ATT
+266,up,up,367,GRU_ATT
+267,up,down,1,GRU_ATT
+268,up,left,0,GRU_ATT
+269,up,right,0,GRU_ATT
+270,up,on,1,GRU_ATT
+271,up,off,8,GRU_ATT
+272,up,stop,7,GRU_ATT
+273,up,go,5,GRU_ATT
+274,up,unknown word,7,GRU_ATT
+275,down,yes,0,GRU_ATT
+276,down,no,43,GRU_ATT
+277,down,up,1,GRU_ATT
+278,down,down,336,GRU_ATT
+279,down,left,0,GRU_ATT
+280,down,right,0,GRU_ATT
+281,down,on,1,GRU_ATT
+282,down,off,0,GRU_ATT
+283,down,stop,0,GRU_ATT
+284,down,go,8,GRU_ATT
+285,down,unknown word,7,GRU_ATT
+286,left,yes,6,GRU_ATT
+287,left,no,7,GRU_ATT
+288,left,up,6,GRU_ATT
+289,left,down,1,GRU_ATT
+290,left,left,371,GRU_ATT
+291,left,right,0,GRU_ATT
+292,left,on,0,GRU_ATT
+293,left,off,0,GRU_ATT
+294,left,stop,0,GRU_ATT
+295,left,go,1,GRU_ATT
+296,left,unknown word,4,GRU_ATT
+297,right,yes,0,GRU_ATT
+298,right,no,0,GRU_ATT
+299,right,up,4,GRU_ATT
+300,right,down,0,GRU_ATT
+301,right,left,8,GRU_ATT
+302,right,right,354,GRU_ATT
+303,right,on,7,GRU_ATT
+304,right,off,3,GRU_ATT
+305,right,stop,0,GRU_ATT
+306,right,go,5,GRU_ATT
+307,right,unknown word,15,GRU_ATT
+308,on,yes,0,GRU_ATT
+309,on,no,1,GRU_ATT
+310,on,up,7,GRU_ATT
+311,on,down,2,GRU_ATT
+312,on,left,0,GRU_ATT
+313,on,right,0,GRU_ATT
+314,on,on,359,GRU_ATT
+315,on,off,13,GRU_ATT
+316,on,stop,1,GRU_ATT
+317,on,go,4,GRU_ATT
+318,on,unknown word,9,GRU_ATT
+319,off,yes,0,GRU_ATT
+320,off,no,1,GRU_ATT
+321,off,up,17,GRU_ATT
+322,off,down,0,GRU_ATT
+323,off,left,2,GRU_ATT
+324,off,right,0,GRU_ATT
+325,off,on,5,GRU_ATT
+326,off,off,351,GRU_ATT
+327,off,stop,0,GRU_ATT
+328,off,go,14,GRU_ATT
+329,off,unknown word,6,GRU_ATT
+330,stop,yes,0,GRU_ATT
+331,stop,no,1,GRU_ATT
+332,stop,up,2,GRU_ATT
+333,stop,down,2,GRU_ATT
+334,stop,left,0,GRU_ATT
+335,stop,right,0,GRU_ATT
+336,stop,on,0,GRU_ATT
+337,stop,off,2,GRU_ATT
+338,stop,stop,381,GRU_ATT
+339,stop,go,5,GRU_ATT
+340,stop,unknown word,3,GRU_ATT
+341,go,yes,0,GRU_ATT
+342,go,no,29,GRU_ATT
+343,go,up,3,GRU_ATT
+344,go,down,1,GRU_ATT
+345,go,left,1,GRU_ATT
+346,go,right,0,GRU_ATT
+347,go,on,0,GRU_ATT
+348,go,off,1,GRU_ATT
+349,go,stop,0,GRU_ATT
+350,go,go,357,GRU_ATT
+351,go,unknown word,4,GRU_ATT
+352,unknown word,yes,0,GRU_ATT
+353,unknown word,no,17,GRU_ATT
+354,unknown word,up,10,GRU_ATT
+355,unknown word,down,9,GRU_ATT
+356,unknown word,left,6,GRU_ATT
+357,unknown word,right,1,GRU_ATT
+358,unknown word,on,7,GRU_ATT
+359,unknown word,off,4,GRU_ATT
+360,unknown word,stop,9,GRU_ATT
+361,unknown word,go,24,GRU_ATT
+362,unknown word,unknown word,334,GRU_ATT
+363,yes,yes,356,CNN_RNN_Model
+364,yes,no,9,CNN_RNN_Model
+365,yes,up,1,CNN_RNN_Model
+366,yes,down,4,CNN_RNN_Model
+367,yes,left,7,CNN_RNN_Model
+368,yes,right,0,CNN_RNN_Model
+369,yes,on,0,CNN_RNN_Model
+370,yes,off,0,CNN_RNN_Model
+371,yes,stop,0,CNN_RNN_Model
+372,yes,go,4,CNN_RNN_Model
+373,yes,unknown word,15,CNN_RNN_Model
+374,no,yes,3,CNN_RNN_Model
+375,no,no,316,CNN_RNN_Model
+376,no,up,3,CNN_RNN_Model
+377,no,down,14,CNN_RNN_Model
+378,no,left,6,CNN_RNN_Model
+379,no,right,1,CNN_RNN_Model
+380,no,on,2,CNN_RNN_Model
+381,no,off,0,CNN_RNN_Model
+382,no,stop,0,CNN_RNN_Model
+383,no,go,39,CNN_RNN_Model
+384,no,unknown word,12,CNN_RNN_Model
+385,up,yes,0,CNN_RNN_Model
+386,up,no,2,CNN_RNN_Model
+387,up,up,329,CNN_RNN_Model
+388,up,down,1,CNN_RNN_Model
+389,up,left,1,CNN_RNN_Model
+390,up,right,8,CNN_RNN_Model
+391,up,on,9,CNN_RNN_Model
+392,up,off,13,CNN_RNN_Model
+393,up,stop,6,CNN_RNN_Model
+394,up,go,17,CNN_RNN_Model
+395,up,unknown word,10,CNN_RNN_Model
+396,down,yes,1,CNN_RNN_Model
+397,down,no,42,CNN_RNN_Model
+398,down,up,2,CNN_RNN_Model
+399,down,down,302,CNN_RNN_Model
+400,down,left,3,CNN_RNN_Model
+401,down,right,3,CNN_RNN_Model
+402,down,on,6,CNN_RNN_Model
+403,down,off,1,CNN_RNN_Model
+404,down,stop,0,CNN_RNN_Model
+405,down,go,22,CNN_RNN_Model
+406,down,unknown word,14,CNN_RNN_Model
+407,left,yes,25,CNN_RNN_Model
+408,left,no,12,CNN_RNN_Model
+409,left,up,5,CNN_RNN_Model
+410,left,down,4,CNN_RNN_Model
+411,left,left,302,CNN_RNN_Model
+412,left,right,15,CNN_RNN_Model
+413,left,on,0,CNN_RNN_Model
+414,left,off,2,CNN_RNN_Model
+415,left,stop,0,CNN_RNN_Model
+416,left,go,4,CNN_RNN_Model
+417,left,unknown word,27,CNN_RNN_Model
+418,right,yes,0,CNN_RNN_Model
+419,right,no,1,CNN_RNN_Model
+420,right,up,2,CNN_RNN_Model
+421,right,down,0,CNN_RNN_Model
+422,right,left,9,CNN_RNN_Model
+423,right,right,357,CNN_RNN_Model
+424,right,on,7,CNN_RNN_Model
+425,right,off,4,CNN_RNN_Model
+426,right,stop,0,CNN_RNN_Model
+427,right,go,4,CNN_RNN_Model
+428,right,unknown word,12,CNN_RNN_Model
+429,on,yes,0,CNN_RNN_Model
+430,on,no,0,CNN_RNN_Model
+431,on,up,5,CNN_RNN_Model
+432,on,down,8,CNN_RNN_Model
+433,on,left,0,CNN_RNN_Model
+434,on,right,5,CNN_RNN_Model
+435,on,on,349,CNN_RNN_Model
+436,on,off,12,CNN_RNN_Model
+437,on,stop,0,CNN_RNN_Model
+438,on,go,8,CNN_RNN_Model
+439,on,unknown word,9,CNN_RNN_Model
+440,off,yes,0,CNN_RNN_Model
+441,off,no,1,CNN_RNN_Model
+442,off,up,23,CNN_RNN_Model
+443,off,down,2,CNN_RNN_Model
+444,off,left,6,CNN_RNN_Model
+445,off,right,5,CNN_RNN_Model
+446,off,on,22,CNN_RNN_Model
+447,off,off,314,CNN_RNN_Model
+448,off,stop,4,CNN_RNN_Model
+449,off,go,6,CNN_RNN_Model
+450,off,unknown word,13,CNN_RNN_Model
+451,stop,yes,1,CNN_RNN_Model
+452,stop,no,0,CNN_RNN_Model
+453,stop,up,13,CNN_RNN_Model
+454,stop,down,6,CNN_RNN_Model
+455,stop,left,0,CNN_RNN_Model
+456,stop,right,0,CNN_RNN_Model
+457,stop,on,0,CNN_RNN_Model
+458,stop,off,4,CNN_RNN_Model
+459,stop,stop,353,CNN_RNN_Model
+460,stop,go,7,CNN_RNN_Model
+461,stop,unknown word,12,CNN_RNN_Model
+462,go,yes,0,CNN_RNN_Model
+463,go,no,72,CNN_RNN_Model
+464,go,up,9,CNN_RNN_Model
+465,go,down,23,CNN_RNN_Model
+466,go,left,0,CNN_RNN_Model
+467,go,right,5,CNN_RNN_Model
+468,go,on,1,CNN_RNN_Model
+469,go,off,1,CNN_RNN_Model
+470,go,stop,0,CNN_RNN_Model
+471,go,go,266,CNN_RNN_Model
+472,go,unknown word,19,CNN_RNN_Model
+473,unknown word,yes,5,CNN_RNN_Model
+474,unknown word,no,26,CNN_RNN_Model
+475,unknown word,up,11,CNN_RNN_Model
+476,unknown word,down,20,CNN_RNN_Model
+477,unknown word,left,4,CNN_RNN_Model
+478,unknown word,right,20,CNN_RNN_Model
+479,unknown word,on,39,CNN_RNN_Model
+480,unknown word,off,10,CNN_RNN_Model
+481,unknown word,stop,6,CNN_RNN_Model
+482,unknown word,go,24,CNN_RNN_Model
+483,unknown word,unknown word,256,CNN_RNN_Model
+484,yes,yes,291,RNNModel
+485,yes,no,9,RNNModel
+486,yes,up,0,RNNModel
+487,yes,down,7,RNNModel
+488,yes,left,76,RNNModel
+489,yes,right,0,RNNModel
+490,yes,on,0,RNNModel
+491,yes,off,0,RNNModel
+492,yes,stop,0,RNNModel
+493,yes,go,2,RNNModel
+494,yes,unknown word,11,RNNModel
+495,no,yes,5,RNNModel
+496,no,no,284,RNNModel
+497,no,up,0,RNNModel
+498,no,down,37,RNNModel
+499,no,left,14,RNNModel
+500,no,right,0,RNNModel
+501,no,on,1,RNNModel
+502,no,off,0,RNNModel
+503,no,stop,4,RNNModel
+504,no,go,46,RNNModel
+505,no,unknown word,5,RNNModel
+506,up,yes,3,RNNModel
+507,up,no,35,RNNModel
+508,up,up,257,RNNModel
+509,up,down,4,RNNModel
+510,up,left,10,RNNModel
+511,up,right,0,RNNModel
+512,up,on,9,RNNModel
+513,up,off,56,RNNModel
+514,up,stop,6,RNNModel
+515,up,go,12,RNNModel
+516,up,unknown word,4,RNNModel
+517,down,yes,4,RNNModel
+518,down,no,173,RNNModel
+519,down,up,6,RNNModel
+520,down,down,149,RNNModel
+521,down,left,12,RNNModel
+522,down,right,0,RNNModel
+523,down,on,3,RNNModel
+524,down,off,2,RNNModel
+525,down,stop,5,RNNModel
+526,down,go,31,RNNModel
+527,down,unknown word,11,RNNModel
+528,left,yes,44,RNNModel
+529,left,no,38,RNNModel
+530,left,up,8,RNNModel
+531,left,down,20,RNNModel
+532,left,left,226,RNNModel
+533,left,right,0,RNNModel
+534,left,on,0,RNNModel
+535,left,off,22,RNNModel
+536,left,stop,4,RNNModel
+537,left,go,21,RNNModel
+538,left,unknown word,13,RNNModel
+539,right,yes,41,RNNModel
+540,right,no,53,RNNModel
+541,right,up,22,RNNModel
+542,right,down,28,RNNModel
+543,right,left,167,RNNModel
+544,right,right,0,RNNModel
+545,right,on,8,RNNModel
+546,right,off,52,RNNModel
+547,right,stop,1,RNNModel
+548,right,go,13,RNNModel
+549,right,unknown word,11,RNNModel
+550,on,yes,5,RNNModel
+551,on,no,18,RNNModel
+552,on,up,138,RNNModel
+553,on,down,41,RNNModel
+554,on,left,4,RNNModel
+555,on,right,0,RNNModel
+556,on,on,158,RNNModel
+557,on,off,17,RNNModel
+558,on,stop,5,RNNModel
+559,on,go,2,RNNModel
+560,on,unknown word,8,RNNModel
+561,off,yes,9,RNNModel
+562,off,no,21,RNNModel
+563,off,up,98,RNNModel
+564,off,down,1,RNNModel
+565,off,left,24,RNNModel
+566,off,right,0,RNNModel
+567,off,on,6,RNNModel
+568,off,off,227,RNNModel
+569,off,stop,2,RNNModel
+570,off,go,4,RNNModel
+571,off,unknown word,4,RNNModel
+572,stop,yes,1,RNNModel
+573,stop,no,32,RNNModel
+574,stop,up,15,RNNModel
+575,stop,down,2,RNNModel
+576,stop,left,4,RNNModel
+577,stop,right,0,RNNModel
+578,stop,on,2,RNNModel
+579,stop,off,6,RNNModel
+580,stop,stop,306,RNNModel
+581,stop,go,9,RNNModel
+582,stop,unknown word,19,RNNModel
+583,go,yes,2,RNNModel
+584,go,no,255,RNNModel
+585,go,up,17,RNNModel
+586,go,down,23,RNNModel
+587,go,left,15,RNNModel
+588,go,right,0,RNNModel
+589,go,on,2,RNNModel
+590,go,off,6,RNNModel
+591,go,stop,5,RNNModel
+592,go,go,67,RNNModel
+593,go,unknown word,4,RNNModel
+594,unknown word,yes,23,RNNModel
+595,unknown word,no,109,RNNModel
+596,unknown word,up,43,RNNModel
+597,unknown word,down,60,RNNModel
+598,unknown word,left,49,RNNModel
+599,unknown word,right,0,RNNModel
+600,unknown word,on,7,RNNModel
+601,unknown word,off,21,RNNModel
+602,unknown word,stop,39,RNNModel
+603,unknown word,go,34,RNNModel
+604,unknown word,unknown word,36,RNNModel
+605,yes,yes,394,LSTMModel
+606,yes,no,0,LSTMModel
+607,yes,up,0,LSTMModel
+608,yes,down,0,LSTMModel
+609,yes,left,0,LSTMModel
+610,yes,right,1,LSTMModel
+611,yes,on,0,LSTMModel
+612,yes,off,0,LSTMModel
+613,yes,stop,0,LSTMModel
+614,yes,go,0,LSTMModel
+615,yes,unknown word,1,LSTMModel
+616,no,yes,3,LSTMModel
+617,no,no,372,LSTMModel
+618,no,up,0,LSTMModel
+619,no,down,7,LSTMModel
+620,no,left,2,LSTMModel
+621,no,right,0,LSTMModel
+622,no,on,0,LSTMModel
+623,no,off,0,LSTMModel
+624,no,stop,0,LSTMModel
+625,no,go,7,LSTMModel
+626,no,unknown word,5,LSTMModel
+627,up,yes,0,LSTMModel
+628,up,no,1,LSTMModel
+629,up,up,379,LSTMModel
+630,up,down,0,LSTMModel
+631,up,left,0,LSTMModel
+632,up,right,0,LSTMModel
+633,up,on,5,LSTMModel
+634,up,off,6,LSTMModel
+635,up,stop,2,LSTMModel
+636,up,go,0,LSTMModel
+637,up,unknown word,3,LSTMModel
+638,down,yes,3,LSTMModel
+639,down,no,24,LSTMModel
+640,down,up,1,LSTMModel
+641,down,down,351,LSTMModel
+642,down,left,1,LSTMModel
+643,down,right,0,LSTMModel
+644,down,on,1,LSTMModel
+645,down,off,0,LSTMModel
+646,down,stop,0,LSTMModel
+647,down,go,8,LSTMModel
+648,down,unknown word,7,LSTMModel
+649,left,yes,7,LSTMModel
+650,left,no,0,LSTMModel
+651,left,up,4,LSTMModel
+652,left,down,0,LSTMModel
+653,left,left,384,LSTMModel
+654,left,right,0,LSTMModel
+655,left,on,0,LSTMModel
+656,left,off,0,LSTMModel
+657,left,stop,0,LSTMModel
+658,left,go,0,LSTMModel
+659,left,unknown word,1,LSTMModel
+660,right,yes,0,LSTMModel
+661,right,no,0,LSTMModel
+662,right,up,1,LSTMModel
+663,right,down,0,LSTMModel
+664,right,left,5,LSTMModel
+665,right,right,380,LSTMModel
+666,right,on,2,LSTMModel
+667,right,off,2,LSTMModel
+668,right,stop,0,LSTMModel
+669,right,go,2,LSTMModel
+670,right,unknown word,4,LSTMModel
+671,on,yes,0,LSTMModel
+672,on,no,1,LSTMModel
+673,on,up,6,LSTMModel
+674,on,down,3,LSTMModel
+675,on,left,0,LSTMModel
+676,on,right,1,LSTMModel
+677,on,on,362,LSTMModel
+678,on,off,18,LSTMModel
+679,on,stop,1,LSTMModel
+680,on,go,0,LSTMModel
+681,on,unknown word,4,LSTMModel
+682,off,yes,1,LSTMModel
+683,off,no,1,LSTMModel
+684,off,up,9,LSTMModel
+685,off,down,1,LSTMModel
+686,off,left,0,LSTMModel
+687,off,right,0,LSTMModel
+688,off,on,6,LSTMModel
+689,off,off,367,LSTMModel
+690,off,stop,0,LSTMModel
+691,off,go,8,LSTMModel
+692,off,unknown word,3,LSTMModel
+693,stop,yes,0,LSTMModel
+694,stop,no,0,LSTMModel
+695,stop,up,2,LSTMModel
+696,stop,down,3,LSTMModel
+697,stop,left,0,LSTMModel
+698,stop,right,1,LSTMModel
+699,stop,on,1,LSTMModel
+700,stop,off,2,LSTMModel
+701,stop,stop,383,LSTMModel
+702,stop,go,1,LSTMModel
+703,stop,unknown word,3,LSTMModel
+704,go,yes,1,LSTMModel
+705,go,no,24,LSTMModel
+706,go,up,7,LSTMModel
+707,go,down,1,LSTMModel
+708,go,left,3,LSTMModel
+709,go,right,0,LSTMModel
+710,go,on,0,LSTMModel
+711,go,off,0,LSTMModel
+712,go,stop,2,LSTMModel
+713,go,go,354,LSTMModel
+714,go,unknown word,4,LSTMModel
+715,unknown word,yes,1,LSTMModel
+716,unknown word,no,13,LSTMModel
+717,unknown word,up,6,LSTMModel
+718,unknown word,down,9,LSTMModel
+719,unknown word,left,10,LSTMModel
+720,unknown word,right,11,LSTMModel
+721,unknown word,on,8,LSTMModel
+722,unknown word,off,6,LSTMModel
+723,unknown word,stop,5,LSTMModel
+724,unknown word,go,22,LSTMModel
+725,unknown word,unknown word,330,LSTMModel
+726,yes,yes,394,GRUModel
+727,yes,no,1,GRUModel
+728,yes,up,0,GRUModel
+729,yes,down,0,GRUModel
+730,yes,left,0,GRUModel
+731,yes,right,1,GRUModel
+732,yes,on,0,GRUModel
+733,yes,off,0,GRUModel
+734,yes,stop,0,GRUModel
+735,yes,go,0,GRUModel
+736,yes,unknown word,0,GRUModel
+737,no,yes,2,GRUModel
+738,no,no,363,GRUModel
+739,no,up,2,GRUModel
+740,no,down,15,GRUModel
+741,no,left,1,GRUModel
+742,no,right,0,GRUModel
+743,no,on,0,GRUModel
+744,no,off,1,GRUModel
+745,no,stop,0,GRUModel
+746,no,go,9,GRUModel
+747,no,unknown word,3,GRUModel
+748,up,yes,0,GRUModel
+749,up,no,1,GRUModel
+750,up,up,377,GRUModel
+751,up,down,0,GRUModel
+752,up,left,1,GRUModel
+753,up,right,0,GRUModel
+754,up,on,3,GRUModel
+755,up,off,11,GRUModel
+756,up,stop,1,GRUModel
+757,up,go,0,GRUModel
+758,up,unknown word,2,GRUModel
+759,down,yes,1,GRUModel
+760,down,no,11,GRUModel
+761,down,up,2,GRUModel
+762,down,down,365,GRUModel
+763,down,left,1,GRUModel
+764,down,right,0,GRUModel
+765,down,on,0,GRUModel
+766,down,off,0,GRUModel
+767,down,stop,0,GRUModel
+768,down,go,9,GRUModel
+769,down,unknown word,7,GRUModel
+770,left,yes,12,GRUModel
+771,left,no,1,GRUModel
+772,left,up,2,GRUModel
+773,left,down,0,GRUModel
+774,left,left,377,GRUModel
+775,left,right,2,GRUModel
+776,left,on,0,GRUModel
+777,left,off,0,GRUModel
+778,left,stop,0,GRUModel
+779,left,go,0,GRUModel
+780,left,unknown word,2,GRUModel
+781,right,yes,0,GRUModel
+782,right,no,0,GRUModel
+783,right,up,2,GRUModel
+784,right,down,0,GRUModel
+785,right,left,1,GRUModel
+786,right,right,385,GRUModel
+787,right,on,0,GRUModel
+788,right,off,0,GRUModel
+789,right,stop,1,GRUModel
+790,right,go,1,GRUModel
+791,right,unknown word,6,GRUModel
+792,on,yes,0,GRUModel
+793,on,no,0,GRUModel
+794,on,up,5,GRUModel
+795,on,down,0,GRUModel
+796,on,left,0,GRUModel
+797,on,right,2,GRUModel
+798,on,on,363,GRUModel
+799,on,off,14,GRUModel
+800,on,stop,0,GRUModel
+801,on,go,4,GRUModel
+802,on,unknown word,8,GRUModel
+803,off,yes,1,GRUModel
+804,off,no,0,GRUModel
+805,off,up,8,GRUModel
+806,off,down,0,GRUModel
+807,off,left,0,GRUModel
+808,off,right,0,GRUModel
+809,off,on,2,GRUModel
+810,off,off,370,GRUModel
+811,off,stop,0,GRUModel
+812,off,go,10,GRUModel
+813,off,unknown word,5,GRUModel
+814,stop,yes,0,GRUModel
+815,stop,no,0,GRUModel
+816,stop,up,6,GRUModel
+817,stop,down,1,GRUModel
+818,stop,left,0,GRUModel
+819,stop,right,1,GRUModel
+820,stop,on,0,GRUModel
+821,stop,off,0,GRUModel
+822,stop,stop,382,GRUModel
+823,stop,go,3,GRUModel
+824,stop,unknown word,3,GRUModel
+825,go,yes,0,GRUModel
+826,go,no,8,GRUModel
+827,go,up,7,GRUModel
+828,go,down,1,GRUModel
+829,go,left,0,GRUModel
+830,go,right,0,GRUModel
+831,go,on,0,GRUModel
+832,go,off,0,GRUModel
+833,go,stop,0,GRUModel
+834,go,go,378,GRUModel
+835,go,unknown word,2,GRUModel
+836,unknown word,yes,1,GRUModel
+837,unknown word,no,6,GRUModel
+838,unknown word,up,6,GRUModel
+839,unknown word,down,6,GRUModel
+840,unknown word,left,11,GRUModel
+841,unknown word,right,14,GRUModel
+842,unknown word,on,5,GRUModel
+843,unknown word,off,3,GRUModel
+844,unknown word,stop,1,GRUModel
+845,unknown word,go,11,GRUModel
+846,unknown word,unknown word,357,GRUModel
